@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+    width: 100%;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 15px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ------------------------------------HEADER START---------------------------------- */
+.site-header{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__logo{
+    width: 219px;
+    height: 56px;
+}
+
+.site-header__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.request{
+    padding: 20px 35px;
+    border: 1px solid #000;
+    border-radius: 14px;
+    font-weight: 1;
+}
+
+.site-header__item a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #000000;
+    
+}
+
+/* ------------------------------------HEADER END---------------------------------- */
+
+
+/*  -------------------------------------MAIN START-------------------------------- */
+/* --------------------------------------HERO START-------------------------------- */
+.site-main__hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-main__hero-text-wrapper{
+    max-width: 531px;
+}
+
+.site-main__hero-title{
+    font-size: 60px;
+    line-height: auto;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.site-main__hero-info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #000;
+
+    margin-bottom: 35px;
+}
+
+.site-main__hero-book-button{
+    padding: 20px 35px;
+    border-radius: 14px;
+    border: none;
+
+    color: #fff;
+    background-color: #000;
+}
+
+.site-main__hero-book-button:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+/* --------------------------------------HERO END-------------------------------- */
+
+/* --------------------------------------ADVERTISEMENT START--------------------- */
+.site-main__adv{
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.site-main__adv-list{
+    display: flex;
+    justify-content: space-between;
+}
+/* --------------------------------------ADVERTISEMENT END--------------------- */
+
+/*  -------------------------------------MAIN END-------------------------------- */
+
