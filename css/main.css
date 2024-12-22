@@ -175,7 +175,7 @@ ul, li{
     width: 600px;
     padding: 50px 50px;
     border: 1px solid #000;
-    border-radius: 14px;
+    border-radius: 45px;
     background-color: #F3F3F3;
     border-bottom: 5px solid #191A23;
 
@@ -212,6 +212,18 @@ ul, li{
     border-radius: 50%;
     background-color: #000;
     
+}
+
+.green{
+    background-color: #B9FF66;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
 }
 
 
