@@ -19,7 +19,7 @@ body{
 
 .container{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1270px;
     padding: 0 15px;
 }
 
@@ -134,6 +134,90 @@ ul, li{
     justify-content: space-between;
 }
 /* --------------------------------------ADVERTISEMENT END--------------------- */
+
+/* --------------------------------------SERVICES START--------------------- */
+.site-main__services{
+    margin-bottom: 100px;
+
+}
+
+.site-main__services-header{
+    margin-bottom: 80px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.site-main__services-title{
+    color: #000;
+    font-size: 40px;
+    line-height: auto;
+    background-color: greenyellow;
+    border-radius: 7px;
+    border: none;
+}
+
+.site-main__services-info{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 580px;
+}
+
+.site-main__sevices-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.site-main__services-card{
+    width: 600px;
+    padding: 50px 50px;
+    border: 1px solid #000;
+    border-radius: 14px;
+    background-color: #F3F3F3;
+    border-bottom: 5px solid #191A23;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-main__services-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+
+.site-main__services-card-title{
+    /* display: inline; */
+    max-width: 221px;
+    font-size: 26px;
+    line-height: auto;
+
+    background-color: greenyellow;
+    border-radius: 7px;
+    border: none;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 6.5px;
+}
+
+.site-main__services-learn-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    
+}
+
+
+
+/* --------------------------------------SERVICES END--------------------- */
+
 
 /*  -------------------------------------MAIN END-------------------------------- */
 
