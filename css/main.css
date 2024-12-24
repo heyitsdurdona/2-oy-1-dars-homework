@@ -257,6 +257,190 @@ ul, li{
 
 /* --------------------------------------SERVICES END--------------------- */
 
+/* ------------------------------------- PROPOSAL STARAT ------------------------ */
+.site-main__proposal{
+    max-width: 1240px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 163px;
+}
+
+.proposal__text-wrapper{
+    max-width: 500px;
+    margin: 60px 0px 60px 60px;
+}
+
+.proposal__title{
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: auto;
+
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.proposal__info{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.proposal__button{
+    padding: 20px 35px;
+    border-radius: 14px;
+    border: none;
+
+    background-color: #000;
+    color: #fff;
+}
+
+.proposal__button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/* ------------------------------------- PROPOSAL END ------------------------ */
+
+/* ------------------------------------- CASE STUDY START-------------------------------- */
+.site-main__case-study{
+
+}
+
+.case-study__text-prapper{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    margin-bottom: 80px;
+}
+
+.case-study__title{
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: auto;
+    border: 1px solid greenyellow;
+    border-radius: 7px;
+    background-color: greenyellow;
+}
+
+.case-study__text{
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+
+    max-width: 580px;
+}
+
+.case-study__card-wrapper{
+    background-color: #191A23;
+    border-radius: 45px;
+    padding: 70px 60px 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.case-study__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 128px;
+}
+
+.case-study__item{
+    max-width: 286px;
+}
+
+.card-text{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.learn{
+    color: #B9FF66;
+}
+
+
+
+/* ------------------------------------- CASE STUDY END-------------------------------- */
+
+/* -------------------------------------WORKING PROCESS START-------------------------------- */
+.process__card{
+    padding: 41px 57px;
+    background-color: #B9FF66;
+    border-radius: 45px;
+    margin-bottom: 30px;
+
+    border: 1px solid #000;
+    border-bottom: 5px solid #191A23;
+}
+
+.process__card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid #000;
+}
+
+.card__header-first{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.process__num{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.process__name{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.process__card-info{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: auto;
+}
+
+.process__card-steps-header{
+    max-width: 1234px;
+    border-radius: 45px;
+    background-color: #F3F3F3;
+    padding: 41px 57px;
+    border: 1px solid #000;
+    border-bottom: 5px solid #191A23;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.process__steps:last-child{
+    margin-bottom: 140px;
+}
+
+
+/* -------------------------------------WORKING PROCESS END-------------------------------- */
 
 /*  -------------------------------------MAIN END-------------------------------- */
 
